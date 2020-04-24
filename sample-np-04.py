@@ -76,3 +76,16 @@ wts = np.array([1, 2, 3, 4])
 print(np.average(a))
 print(np.average(a, weights=wts))
 
+# 统计数组中的标准差 std()、方差 var()
+print('统计数组中的标准差 std()、方差 var()')
+print(np.std(a))
+print(np.var(a))
+
+# NumPy 排序
+a = np.array([[4, 3, 2], [2, 4, 1]])
+print('NumPy 排序')
+print(np.sort(a))
+print(np.sort(a, axis=None))
+print(np.sort(a, axis=0))
+print(np.sort(a, axis=1))
+
